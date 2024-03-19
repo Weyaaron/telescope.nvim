@@ -365,6 +365,15 @@ append(
 )
 
 append(
+  "anchor_padding",
+  5,
+  [[
+    Set amount of padding around the border of the windows. Negative Values
+    are not supported.
+  Default:1]]
+)
+
+append(
   "get_status_text",
   function(self, opts)
     local multi_select_cnt = #(self:get_multi_selection())

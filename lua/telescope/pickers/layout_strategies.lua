@@ -194,6 +194,7 @@ local shared_options = {
   scroll_speed = "The number of lines to scroll through the previewer",
   prompt_position = { "Where to place prompt window.", "Available Values: 'bottom', 'top'" },
   anchor = { "Which edge/corner to pin the picker to", "See |resolver.resolve_anchor_pos()|" },
+  anchor_padding = { "Additional padding around borders", "Values should be a positive integer" },
 }
 
 -- Used for generating vim help documentation.
